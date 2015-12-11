@@ -1,0 +1,24 @@
+{
+  "name": "node-starter-app",
+  "version": "1.0.0",
+  "description": "An ES6 Node.js app set up for TDD",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha test/**/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aceakash/node-starter-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aceakash/node-starter-app/issues"
+  },
+  "homepage": "https://github.com/aceakash/node-starter-app#readme",
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "mocha": "^2.3.4",
+    "sinon": "^1.17.2"
+  }
+}
