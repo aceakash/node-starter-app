@@ -4,7 +4,8 @@
   "description": "An ES6 Node.js app set up for TDD",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/mocha/bin/mocha test/**/*.test.js"
+    "test": "./node_modules/gulp/bin/gulp.js test",
+    "tdd": "./node_modules/gulp/bin/gulp.js tdd"
   },
   "repository": {
     "type": "git",
@@ -18,7 +19,9 @@
   "homepage": "https://github.com/aceakash/node-starter-app#readme",
   "devDependencies": {
     "chai": "^3.4.1",
-    "mocha": "^2.3.4",
+    "gulp": "^3.9.0",
+    "gulp-eslint": "^1.1.1",
+    "gulp-mocha": "^2.2.0",
     "sinon": "^1.17.2"
   }
 }

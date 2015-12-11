@@ -9,3 +9,8 @@ npm install
 
 # Test
 `npm test`
+
+# TDD mode
+`npm run tdd`
+
+will start a watch mode, which will  trigger a lint and test run when it detects any changes to .js files.
