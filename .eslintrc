@@ -20,19 +20,8 @@
         "complexity": [2, 9],
         "no-process-exit": 0
     },
-    "ecmaFeatures": {
-        "arrowFunctions":true,
-        "blockBindings": true,
-        "classes":true,
-        "objectLiteralComputedProperties":true,
-        "objectLiteralDuplicateProperties":true,
-        "objectLiteralShorthandMethods":true,
-        "objectLiteralShorthandProperties":true,
-        "octalLiterals":true,
-        "generators":true,
-        "forOf": true
-    },
     "env": {
+        "es6": true,
         "node": true,
         "mocha": true
     }
